@@ -8,26 +8,42 @@ This is a Python-based GUI port scanner built with `tkinter`. It mimics Nmap fun
 - **Service Detection (Banner Grabbing)**
 - **OS Fingerprinting (via TTL analysis)**
 
-## 🖥 Features
 
-- Graphical interface with dark theme and real-time progress
-- Scan multiple ports with service detection
-- Export scan results to a text file
-- Optional OS fingerprint guessing
-- Supports scanning IPs or hostnames
 
-## 🚀 How to Run
+# 🛡️ Advanced Port Scanner (Nmap-style)
 
-### 1. Requirements
+A GUI-based, Python-powered port scanner inspired by Nmap. It supports TCP Connect scans, UDP scans, service detection (banner grabbing), and OS fingerprinting via TTL analysis. Results can be exported, and the interface includes a progress bar and options for timeout and port range control.
 
-- Python 3.x
-- Works cross-platform (Windows/Linux/macOS)
+---
 
-### 2. Run the Scanner
+## ⚙️ Features
+
+- ✅ TCP Connect Scan
+- ✅ UDP Port Detection
+- ✅ Service/Banner Grabbing
+- ✅ OS Fingerprinting (TTL analysis)
+- ✅ Export Results to File
+- ✅ Clean, Dark-Themed GUI (Tkinter)
+- ✅ Multithreaded (fast scans)
+
+---
+
+## 🧰 Requirements
+
+- Python 3.6+
+- Tkinter (usually preinstalled)
+- Windows, Linux, or macOS
+
+---
+
+## 🏃 How to Run
+
+### 1. Clone the Repository
 
 ```bash
-python advanced_port_scanner.py
-```
+git clone https://github.com/Pramodhcyb/advanced-port-scanner/tree/main
+cd advanced-port-scanner
+
 
 ### 3. Usage
 
@@ -49,7 +65,13 @@ PORT     STATE    SERVICE         BANNER
 22/tcp   open     ssh             OpenSSH 7.4
 ...
 ```
+## 🖥 Features
 
+- Graphical interface with dark theme and real-time progress
+- Scan multiple ports with service detection
+- Export scan results to a text file
+- Optional OS fingerprint guessing
+- Supports scanning IPs or hostnames
 ---
 
 > Developed with 💻 by [Your Name]
